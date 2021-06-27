@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6821229F266D2FE80022021A /* MainState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6821229E266D2FE80022021A /* MainState.swift */; };
+		68840C6A266AA3960052BB0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68840C69266AA3960052BB0D /* AppDelegate.swift */; };
+		68840C6C266AA3960052BB0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68840C6B266AA3960052BB0D /* SceneDelegate.swift */; };
+		68840C6E266AA3960052BB0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68840C6D266AA3960052BB0D /* ContentView.swift */; };
+		68840C70266AA3980052BB0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68840C6F266AA3980052BB0D /* Assets.xcassets */; };
+		68840C73266AA3980052BB0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68840C72266AA3980052BB0D /* Preview Assets.xcassets */; };
+		68840C76266AA3980052BB0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68840C74266AA3980052BB0D /* LaunchScreen.storyboard */; };
+		68840C7F266AA3E80052BB0D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68840C7E266AA3E80052BB0D /* Home.swift */; };
+		68840C81266AC5800052BB0D /* PlayerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68840C80266AC5800052BB0D /* PlayerCard.swift */; };
+		68840C83266ACB470052BB0D /* ScoreList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68840C82266ACB470052BB0D /* ScoreList.swift */; };
+		68840C86266ACECC0052BB0D /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68840C85266ACECC0052BB0D /* PlayerModel.swift */; };
+		68840C88266B7FE40052BB0D /* PlayerPositions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68840C87266B7FE40052BB0D /* PlayerPositions.swift */; };
+		68840C8A266B81310052BB0D /* PlayerPositionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68840C89266B81310052BB0D /* PlayerPositionsModel.swift */; };
+		68840C8C266BE39E0052BB0D /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68840C8B266BE39E0052BB0D /* MenuView.swift */; };
+		68840C8E266BE66A0052BB0D /* MenuButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68840C8D266BE66A0052BB0D /* MenuButtons.swift */; };
+		68840C90266BEEA30052BB0D /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68840C8F266BEEA30052BB0D /* MainView.swift */; };
+		68840C92266C0A880052BB0D /* PlayerDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68840C91266C0A880052BB0D /* PlayerDetailsView.swift */; };
+		68B5EB74266D04F800073979 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 68B5EB73266D04F800073979 /* Lottie */; };
+		68B5EB76266D051B00073979 /* LottieAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B5EB75266D051B00073979 /* LottieAnimation.swift */; };
+		68B5EB79266D062F00073979 /* goal.json in Resources */ = {isa = PBXBuildFile; fileRef = 68B5EB78266D062F00073979 /* goal.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6821229E266D2FE80022021A /* MainState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainState.swift; sourceTree = "<group>"; };
+		68840C66266AA3960052BB0D /* ManchesterUnitedFanApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManchesterUnitedFanApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68840C69266AA3960052BB0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68840C6B266AA3960052BB0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		68840C6D266AA3960052BB0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		68840C6F266AA3980052BB0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68840C72266AA3980052BB0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		68840C75266AA3980052BB0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		68840C77266AA3980052BB0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68840C7E266AA3E80052BB0D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		68840C80266AC5800052BB0D /* PlayerCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCard.swift; sourceTree = "<group>"; };
+		68840C82266ACB470052BB0D /* ScoreList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreList.swift; sourceTree = "<group>"; };
+		68840C85266ACECC0052BB0D /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		68840C87266B7FE40052BB0D /* PlayerPositions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerPositions.swift; sourceTree = "<group>"; };
+		68840C89266B81310052BB0D /* PlayerPositionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerPositionsModel.swift; sourceTree = "<group>"; };
+		68840C8B266BE39E0052BB0D /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		68840C8D266BE66A0052BB0D /* MenuButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtons.swift; sourceTree = "<group>"; };
+		68840C8F266BEEA30052BB0D /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		68840C91266C0A880052BB0D /* PlayerDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsView.swift; sourceTree = "<group>"; };
+		68B5EB75266D051B00073979 /* LottieAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimation.swift; sourceTree = "<group>"; };
+		68B5EB78266D062F00073979 /* goal.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = goal.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68840C63266AA3960052BB0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B5EB74266D04F800073979 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68840C5D266AA3960052BB0D = {
+			isa = PBXGroup;
+			children = (
+				68840C68266AA3960052BB0D /* ManchesterUnitedFanApp */,
+				68840C67266AA3960052BB0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68840C67266AA3960052BB0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68840C66266AA3960052BB0D /* ManchesterUnitedFanApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68840C68266AA3960052BB0D /* ManchesterUnitedFanApp */ = {
+			isa = PBXGroup;
+			children = (
+				68B5EB77266D062600073979 /* Lottie */,
+				68840C84266ACEB70052BB0D /* Model */,
+				68840C7D266AA3CE0052BB0D /* Views */,
+				68840C69266AA3960052BB0D /* AppDelegate.swift */,
+				68840C6B266AA3960052BB0D /* SceneDelegate.swift */,
+				68840C6D266AA3960052BB0D /* ContentView.swift */,
+				68840C6F266AA3980052BB0D /* Assets.xcassets */,
+				68840C74266AA3980052BB0D /* LaunchScreen.storyboard */,
+				68840C77266AA3980052BB0D /* Info.plist */,
+				68840C71266AA3980052BB0D /* Preview Content */,
+			);
+			path = ManchesterUnitedFanApp;
+			sourceTree = "<group>";
+		};
+		68840C71266AA3980052BB0D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				68840C72266AA3980052BB0D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		68840C7D266AA3CE0052BB0D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				68840C7E266AA3E80052BB0D /* Home.swift */,
+				68B5EB75266D051B00073979 /* LottieAnimation.swift */,
+				68840C82266ACB470052BB0D /* ScoreList.swift */,
+				68840C87266B7FE40052BB0D /* PlayerPositions.swift */,
+				68840C80266AC5800052BB0D /* PlayerCard.swift */,
+				68840C8B266BE39E0052BB0D /* MenuView.swift */,
+				68840C8F266BEEA30052BB0D /* MainView.swift */,
+				68840C91266C0A880052BB0D /* PlayerDetailsView.swift */,
+				68840C8D266BE66A0052BB0D /* MenuButtons.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		68840C84266ACEB70052BB0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				68840C85266ACECC0052BB0D /* PlayerModel.swift */,
+				68840C89266B81310052BB0D /* PlayerPositionsModel.swift */,
+				6821229E266D2FE80022021A /* MainState.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		68B5EB77266D062600073979 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				68B5EB78266D062F00073979 /* goal.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68840C65266AA3960052BB0D /* ManchesterUnitedFanApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68840C7A266AA3980052BB0D /* Build configuration list for PBXNativeTarget "ManchesterUnitedFanApp" */;
+			buildPhases = (
+				68840C62266AA3960052BB0D /* Sources */,
+				68840C63266AA3960052BB0D /* Frameworks */,
+				68840C64266AA3960052BB0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ManchesterUnitedFanApp;
+			packageProductDependencies = (
+				68B5EB73266D04F800073979 /* Lottie */,
+			);
+			productName = ManchesterUnitedFanApp;
+			productReference = 68840C66266AA3960052BB0D /* ManchesterUnitedFanApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68840C5E266AA3960052BB0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					68840C65266AA3960052BB0D = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 68840C61266AA3960052BB0D /* Build configuration list for PBXProject "ManchesterUnitedFanApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68840C5D266AA3960052BB0D;
+			packageReferences = (
+				68B5EB72266D04F800073979 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 68840C67266AA3960052BB0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68840C65266AA3960052BB0D /* ManchesterUnitedFanApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68840C64266AA3960052BB0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B5EB79266D062F00073979 /* goal.json in Resources */,
+				68840C76266AA3980052BB0D /* LaunchScreen.storyboard in Resources */,
+				68840C73266AA3980052BB0D /* Preview Assets.xcassets in Resources */,
+				68840C70266AA3980052BB0D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68840C62266AA3960052BB0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68840C81266AC5800052BB0D /* PlayerCard.swift in Sources */,
+				6821229F266D2FE80022021A /* MainState.swift in Sources */,
+				68840C90266BEEA30052BB0D /* MainView.swift in Sources */,
+				68840C92266C0A880052BB0D /* PlayerDetailsView.swift in Sources */,
+				68840C6A266AA3960052BB0D /* AppDelegate.swift in Sources */,
+				68840C8A266B81310052BB0D /* PlayerPositionsModel.swift in Sources */,
+				68B5EB76266D051B00073979 /* LottieAnimation.swift in Sources */,
+				68840C83266ACB470052BB0D /* ScoreList.swift in Sources */,
+				68840C6C266AA3960052BB0D /* SceneDelegate.swift in Sources */,
+				68840C8C266BE39E0052BB0D /* MenuView.swift in Sources */,
+				68840C7F266AA3E80052BB0D /* Home.swift in Sources */,
+				68840C88266B7FE40052BB0D /* PlayerPositions.swift in Sources */,
+				68840C8E266BE66A0052BB0D /* MenuButtons.swift in Sources */,
+				68840C6E266AA3960052BB0D /* ContentView.swift in Sources */,
+				68840C86266ACECC0052BB0D /* PlayerModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68840C74266AA3980052BB0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68840C75266AA3980052BB0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68840C78266AA3980052BB0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68840C79266AA3980052BB0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68840C7B266AA3980052BB0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ManchesterUnitedFanApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6L2SZ565C2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ManchesterUnitedFanApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = None.ManchesterUnitedFanApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68840C7C266AA3980052BB0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ManchesterUnitedFanApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 6L2SZ565C2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ManchesterUnitedFanApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = None.ManchesterUnitedFanApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68840C61266AA3960052BB0D /* Build configuration list for PBXProject "ManchesterUnitedFanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68840C78266AA3980052BB0D /* Debug */,
+				68840C79266AA3980052BB0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68840C7A266AA3980052BB0D /* Build configuration list for PBXNativeTarget "ManchesterUnitedFanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68840C7B266AA3980052BB0D /* Debug */,
+				68840C7C266AA3980052BB0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		68B5EB72266D04F800073979 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		68B5EB73266D04F800073979 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68B5EB72266D04F800073979 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 68840C5E266AA3960052BB0D /* Project object */;
+}
